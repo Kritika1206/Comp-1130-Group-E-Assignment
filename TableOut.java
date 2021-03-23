@@ -12,5 +12,6 @@ public class TableOut {
         "| 37 | 38 | 39 | 40 | 41 | 42 |" +"\n"+
         "| 43 | 44 | 45 | 46 | 47 | 48 |");
         System.out.println(Table1.getNumbers());
+        System.out.println("Made By- Michael Battersby");
     }
 }

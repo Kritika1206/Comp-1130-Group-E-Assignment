@@ -68,6 +68,7 @@ public class WordGame {
 
         //If user choose not to play again, Ending off with Thanks
        System.out.println("Thanks for playing!");
+       System.out.println("Made By- Umar Rahim");
     sc.close();
     }
 }
