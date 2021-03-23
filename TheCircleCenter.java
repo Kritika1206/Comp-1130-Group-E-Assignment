@@ -9,18 +9,18 @@ public class TheCircleCenter {
         System.out.println("Enter the width:");     //scanning the width
         widthOfBlock = scan.nextInt();
         
-    for (int i = -heightOfBlock; i < heightOfBlock; i++) {              //using the for loop to check the length
-        for (int j = -widthOfBlock; j < widthOfBlock; j++){             //using the for loop to check the width
-            if (j * j + i * i <= heightOfBlock / 2 * widthOfBlock / 2) {
+    for (int i = -heightOfBlock; i < heightOfBlock; i++) {               //checking the length 
+        for (int j = -widthOfBlock; j < widthOfBlock; j++){             //checking the width
+            if (j * j + i * i <= heightOfBlock / 2 * widthOfBlock / 2) {            // condition for printing the outpur
                 if (i == 0 && j == 0) {
-                        System.out.print(" ");
+                        System.out.print(" ");              
                     } 
                 else {
-                        System.out.print("O");
+                        System.out.print("O");              //printing O
                     }
                 }
             else {
-                    System.out.print("#");
+                    System.out.print("#");      //printing #
                 }
             }
             System.out.println("");
