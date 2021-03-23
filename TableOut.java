@@ -2,7 +2,7 @@ public class TableOut {
     public static void main(String[] args) {
 
         System.out.println("Number Table ");
-        Table Table1 = new Table();
+        Table Table1 = new Table( );
         System.out.println(" : " + Table1.getNumbers());
 
         // OPTION 2 COMMENTED OUT
@@ -19,3 +19,4 @@ public class TableOut {
         // System.out.println();
     }
 }
+//fix the program

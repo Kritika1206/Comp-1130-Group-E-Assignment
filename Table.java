@@ -9,8 +9,10 @@ public class Table {
         this.height = height;
         this.numbers = Numbers;
     }
-
-    public String Table() {
+    
+    public String getNumbers() { return numbers; }
+    
+    public String getTable(){
         width = 6;
         height = 8;
         numbers = " | 1  | 2 | 3 | 4 | 5 | 6 | " +
@@ -21,10 +23,7 @@ public class Table {
                 "|31  | 32| 33| 34| 35| 36| " +
                 "|37  | 38| 39| 40| 41| 42| " +
                 "|43  | 44| 45| 46| 47| 48| ";
-
-
-        public String getNumbers () { return numbers; }
-
+        return numbers;
     }
 
 }
