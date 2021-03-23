@@ -41,5 +41,6 @@ public class PluseBlock{
             }
             System.out.print("\n");
         }
+        scan.close();
     }
 }
